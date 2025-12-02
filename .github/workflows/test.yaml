@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Bye, GitHub Actions!"
-   run-it:
+  run-it:
     runs-on: ubuntu-latest
     env:
       USER_NAME: Alice
