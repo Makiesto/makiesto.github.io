@@ -14,5 +14,7 @@ jobs:
     env:
       USER_NAME: Alice
     steps:
+      - uses: actions/checkout@v4
+    
       - name: Run script
         run: python3 script.py
