@@ -9,3 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Bye, GitHub Actions!"
+  run-it:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run script
+        run: python3 script.py
